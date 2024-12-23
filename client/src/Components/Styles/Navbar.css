@@ -1,0 +1,50 @@
+.logo{
+  margin-left: 127px;
+  margin-top: -16px;
+}
+.container1{
+  display: flex;
+  margin-bottom: -21px;
+}
+.mail{
+  margin-top: 45px;
+  margin-left: 485px;
+}
+.phone{
+  margin-top: 45px;
+  margin-left: 40px;
+}
+.fa-envelope{
+  color: #7ADF4E;
+}
+.fa-phone{
+  color:#7ADF4E ;
+}
+.email{
+  color: #0156a7;
+  font-size: 17px;
+}
+.contact{
+  color:#0156a7 ;
+  font-size: 17px;
+}
+.navbar{
+  width: 100%;
+  background: linear-gradient(#78e845, #529a32);
+  box-shadow: -1px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  line-height: 38px;
+}
+.active{
+  margin-left: 120px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navi{
+  margin-left: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-link{
+ 
+ color: #ffffff;
+}

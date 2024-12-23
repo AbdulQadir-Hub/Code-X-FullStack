@@ -1,0 +1,59 @@
+.Contact{
+  display: flex; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact2{
+display: flex;
+}
+.contact2 ul a{
+  text-decoration: none;
+}
+.contact1{
+  margin-left: 150px;
+ 
+}
+.contact2-1{
+  margin-left: 100px;
+}
+.form1{
+  margin-left: 50px;
+}
+form {
+width: 500px;
+margin: auto;
+border: 1px solid #ccc;
+padding: 16px;
+background-color: #f9f9f9;
+}
+
+label {
+margin-top: 8px;
+display: block;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type="submit"] {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 100%;
+}
+
+input[type="submit"]:hover {
+background-color: #45a049;
+}

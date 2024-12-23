@@ -1,0 +1,35 @@
+
+const Login = require("./models/Login");
+
+
+// app.post("/login", async (req, res) => {
+//   try {
+//     const { email, password } = req.body;
+//     const foundLogin = await Login.findOne({ email });
+
+//     if (foundLogin) {
+//       const isPasswordValid = await bcrypt.compare(
+//         password,
+//         foundLogin.password
+//       );
+//       if (isPasswordValid) {
+//         const token = jwt.sign({ id: foundLogin._id }, process.env.JWT_SECRET, {
+//           expiresIn: "1h",
+//         });
+
+//         res.cookie("auth_token", token, {
+//           httpOnly: true,
+//           expires: new Date(Date.now() + 86400000),
+//         });
+//         res.status(200).send("Login successful.");
+//       } else {
+//         res.status(400).send("Incorrect password. Please try again.");
+//       }
+//     } else {
+//       res.status(400).send("No Login found with this email.");
+//     }
+//   } catch (error) {
+//     console.error("Login error:", error);
+//     res.status(500).send("Something went wrong. Please try again later.");
+//   }
+// });
